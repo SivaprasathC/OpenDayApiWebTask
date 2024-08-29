@@ -139,7 +139,9 @@ function clicked(item) {
     .then(res=>{
      console.log(res)
      depname=`<h1>Department Name:${res.name}</h1>`
-     descp=`<h2>Description:${res.description}</h2>`
+     descp=`<h2>Description:${res.description}</h2>
+     <h2>Block:${res.block}</h2>
+     <h2>Link:<a href=${res.link}>${res.link}</a></h2>`
      localStorage.depname= depname; 
      localStorage.descp= descp;
      window.location.href = "department.html";
