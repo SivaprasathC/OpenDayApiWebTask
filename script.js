@@ -140,7 +140,11 @@ function clicked(item) {
      console.log(res)
      depname=`<h1>Department Name:${res.name}</h1>`
      descp=`<h2>Description:${res.description}</h2>
+     <br>
+     <br>
      <h2>Block:${res.block}</h2>
+     <br>
+     <br>
      <h2>Link:<a href=${res.link}>${res.link}</a></h2>`
      localStorage.depname= depname; 
      localStorage.descp= descp;
