@@ -116,20 +116,6 @@ displayPage(currentPage);
 updatePagination();
 }
 
-//getting id of a div when it is clicked replace in fetchh
-// function clicked(item) {
-//     id= $(item).attr("id")
-//     url=`http://openday.kumaraguru.in/api/v1/department/${id}`
-//     fetch(url)
-//     .then(response=> response.json())
-//     .then(res=>{
-//      console.log(res)
-//      depname=`<h1>${res.name}</h1>`
-//      descp=`<h2>${res.description}</h2>`
-//      document.getElementById('name').innerHTML=depname;
-//      document.getElementById('detail').innerHTML=descp;
-//      window.location.href = "department.html";
-//  })}
 
 function clicked(item) {
     id= $(item).attr("id")
