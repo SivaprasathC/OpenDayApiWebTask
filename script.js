@@ -139,6 +139,7 @@ function clicked(item) {
     .then(res=>{
      console.log(res)
      depname=`<h1>Department Name:${res.name}</h1>`
+     departimage=`<img src="https://picsum.photos/id/${id}/200/300" alt="department${id}"></img>`
      descp=`<h2>Description:${res.description}</h2>
      <br>
      <br>
@@ -148,5 +149,6 @@ function clicked(item) {
      <h2>Link:<a href=${res.link}>${res.link}</a></h2>`
      localStorage.depname= depname; 
      localStorage.descp= descp;
+     localStorage.departimage= departimage;
      window.location.href = "department.html";
  })}
