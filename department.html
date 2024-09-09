@@ -10,11 +10,11 @@
     <style>
         .container{
             width: 90%;
-            height: 550px;
+            height: 650px;
             background-color: #1f2842;
             color: #4ec1b5;
             margin: auto;
-            margin-top: 80px;
+            margin-top: 50px;
         }
         #name h1{
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,6 +39,12 @@
             color:#4ec1b5;
         text-decoration: white;
         }
+        #depimage img{
+         width: 300px;
+         height: 200px;
+         padding-left: 60px;
+         border-right: 10px solid #4ec1b5;
+        }
     </style>
 </head>
 <body>
@@ -48,12 +54,14 @@
     </div>
     <div class="container">
         <div id="name"></div>
+        <div id="depimage"></div>
         <div id="detail"></div>
     </div>
 
     <script>
         document.getElementById("name").innerHTML=localStorage.depname;
         document.getElementById("detail").innerHTML=localStorage.descp;
+        document.getElementById("depimage").innerHTML=localStorage.departimage;
     </script>
 </body>
 </html>
