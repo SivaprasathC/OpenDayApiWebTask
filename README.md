@@ -3,7 +3,11 @@ Implementing APIs
 
 deployment- https://opendaytask.netlify.app/
 
-![IMG-20240829-WA0014](https://github.com/user-attachments/assets/8b2553dd-ad76-4591-b042-bc5492a4e470)
-![IMG-20240829-WA0015](https://github.com/user-attachments/assets/b659aa7f-717d-44ec-915d-52504c535b31)
+![Screenshot (76)](https://github.com/user-attachments/assets/883e01cb-8854-4992-bbd2-9d919b41dda5)
+
+![Screenshot (77)](https://github.com/user-attachments/assets/9e5d19de-a370-4078-835f-637938aec5aa)
+
+![Screenshot (78)](https://github.com/user-attachments/assets/c6306083-5138-4fde-aae9-3147246a14c9)
+
 ![IMG-20240829-WA0012](https://github.com/user-attachments/assets/f543abe2-1763-495e-b7be-9183e88ec54a)
-![Screenshot (74)](https://github.com/user-attachments/assets/59691e2c-f0ff-42a8-b119-de3f1e357107)
+
