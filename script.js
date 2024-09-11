@@ -5,7 +5,7 @@ fetch("http://openday.kumaraguru.in/api/v1/departments/")
     const data=res;
     let depts='';
     data.forEach(depart => {
-       depts+=`<div style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),url(https://picsum.photos/id/${depart.id}/300/200);"onclick="clicked(this);" id="${depart.id}" class="depts"><h3>${depart.name}</h3></div>`
+       depts+=`<div style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://picsum.photos/id/${depart.id}/300/200);"onclick="clicked(this);" id="${depart.id}" class="depts"><h3>${depart.name}</h3></div>`
 
     })
     document.getElementById('alldepartments').innerHTML=depts;
